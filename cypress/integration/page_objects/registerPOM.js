@@ -1,3 +1,5 @@
+import { initial } from "cypress/types/lodash";
+
 export default class registerPage {
     get firstName() {
       return cy.get("input[id='first-name']");
@@ -32,7 +34,7 @@ export default class registerPage {
         this.email.type(email);
         this.password.type(password);
         this.confirmPassword.type(confirmPassword)
-        this.terms.click(isNaN);
+        this.terms.click();
         this.submitBtn.click();
     }
   }
