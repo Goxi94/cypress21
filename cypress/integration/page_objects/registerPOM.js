@@ -32,7 +32,7 @@ export default class registerPage {
         this.email.type(email);
         this.password.type(password);
         this.confirmPassword.type(confirmPassword)
-        this.terms.click();
+        this.terms.click(isNaN);
         this.submitBtn.click();
     }
   }
