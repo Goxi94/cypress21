@@ -1,3 +1,8 @@
+
 {
-    "baseUrl":"https://gallery-app.vivifyideas.com/"
+    "baseUrl" : "https://cypress.vivifyscrum-stage.com/",
+    "env" : {
+        "testUserEmail" : "markopzs1@test.com",
+        "testUserPass" : "password123"
+    }
 }
