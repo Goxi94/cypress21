@@ -20,7 +20,7 @@ describe('login test', ()=>{
 
         }).as('loginIntercept');
 
-        loginPage.login('markopzs1@test.com', 'password123');
+        loginPage.login('goxa@test.com', 'password12345678');
 
         cy.wait('@loginIntercept').then((intercept) => {
             expect(intercept.response.statusCode).eq(200)

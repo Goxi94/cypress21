@@ -1,0 +1,1 @@
+cy.get("a").contains('testTitle').click({force: true})

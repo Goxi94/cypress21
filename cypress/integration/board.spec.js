@@ -7,7 +7,7 @@ describe('board', ()=>{
 
     before('login', ()=>{
         cy.visit('/login')
-        loginPage.login('markopzs1@test.com', 'password123');
+        loginPage.login('goxa94@test.com', 'password12345678');
     })
 
     it('chose organization', ()=>{
